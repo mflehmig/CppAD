@@ -26,11 +26,11 @@ $$
 $section Speed Test an Operator Overloading AD Package$$
 
 $head Purpose$$
-Cppad has a set of speed tests that are used to determine if
+CppAD has a set of speed tests that are used to determine if
 changes improve its execution speed.
 These tests can also be used to compare the AD packages
 $cref/Adolc/adolc/Adolc Home Page/$$,
-Cppad,
+CppAD,
 $cref/Fadbad/fadbad_prefix/Fadbad Home Page/$$,
 $cref/Cppadcg/cppadcg/CppADCodeGen Home Page/$$,
 $cref/Sacado/sacado_prefix/Sacado Home Page/$$.

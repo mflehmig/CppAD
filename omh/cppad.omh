@@ -11,7 +11,7 @@ CppAD: C++ Algorithmic Differentiation: Copyright (C) 2003-21 Bradley M. Bell
         GNU General Public License, Version 2.0 or later.
 -----------------------------------------------------------------------------
 $$
-$comment Top level documentaion included by ../doc.omh and ../dev.omh$$
+$comment Top level documentation included by ../doc.omh and ../dev.omh$$
 
 $escape $$
 $comment default navigate command for all of CppAD documentation$$
@@ -27,7 +27,7 @@ $navigate%
     Current%Headings
 %$$
 $comment -------------------------------------------------------------
-default automatic indexing command for all CppAD documentaiton
+default automatic indexing command for all CppAD documentation
 $$
 $aindex section head subhead$$
 $comment -------------------------------------------------------------
@@ -150,7 +150,7 @@ and sparsity patterns of derivative values using the $icode Base$$ type.
 
 $subhead Multi-Threading$$
 CppAD supports an arbitrary $cref/multi threading/multi_thread/$$ environment.
-Examples are provided using Boost threads, Posix threads, and Openmp threads.
+Examples are provided using Boost threads, POSIX threads (pthreads), and OpenMP threads.
 
 $subhead Optimizing Operations Sequences$$
 During the recording of a function,
@@ -246,7 +246,7 @@ CppAD includes a set of C++ $cref/utilities/utility/$$ that are useful
 for general operator overloaded numerical methods.
 
 $head Release Notes$$
-This $cref whats_new$$ for a list of recent extensions and bug fixes.
+See $cref whats_new$$ for a list of recent extensions and bug fixes.
 
 $head Example$$
 The file $cref get_started.cpp$$

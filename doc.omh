@@ -10,7 +10,7 @@ CppAD: C++ Algorithmic Differentiation: Copyright (C) 2003-20 Bradley M. Bell
         GNU General Public License, Version 2.0 or later.
 -------------------------------------------------------------------------- */
 $begin CppAD$$
-$comment Top level User documentaion$$
+$comment Top level User documentation$$
 
 $include omh/cppad.omh$$
 

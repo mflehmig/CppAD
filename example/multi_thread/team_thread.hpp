@@ -25,7 +25,7 @@ $spell
     CppAD
     ta
 $$
-$section Specifications for A Team of AD Threads$$
+$section Specifications for a Team of AD Threads$$
 
 
 $head Syntax$$

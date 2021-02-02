@@ -234,11 +234,11 @@ There is an extensive set of correctness tests; see $cref cmake_check$$.
 
 $subhead Speed$$
 A set of programs for doing $cref speed$$ comparisons between
-$href%https://projects.coin-or.org/ADOL-C%Adolc%$$,
+$href%https://github.com/coin-or/ADOL-C%ADOL-C%$$,
 CppAD,
-$href%http://www.fadbad.com/%Fadbad%$$,
+$href%http://www.fadbad.com/%FADBAD%$$,
 and
-$href%http://trilinos.sandia.gov/packages/sacado/%Sacado%$$
+$href%https://trilinos.github.io/sacado_doxygen.html%Sacado%$$
 are included.
 
 $head Utilities$$

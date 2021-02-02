@@ -20,7 +20,7 @@ $spell
     grep
     recomputed
     iterator
-    Adolc
+    ADOL-C
     hpp
     CppAD
     Atan
@@ -238,8 +238,8 @@ defined by the base class.
 An example of this type of template specialization can be found in
 the implementation of $cref to_string$$.
 
-$head Adolc$$
-Create a documentation page that shows how to convert Adolc commands to
+$head ADOL-C$$
+Create a documentation page that shows how to convert ADOL-C commands to
 CppAD commands.
 
 $head Forward Mode Recomputation$$

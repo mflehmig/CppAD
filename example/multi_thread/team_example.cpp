@@ -20,7 +20,7 @@ $section Using a Team of AD Threads: Example and Test$$
 
 
 $head Purpose$$
-This example demonstrates how use a team of threads with CppAD.
+This example demonstrates how to use a team of threads with CppAD.
 
 $head thread_team$$
 The following three implementations of the
@@ -91,7 +91,7 @@ bool team_example(void)
 
     size_t num_threads = NUMBER_THREADS;
 
-    // Check that no memory is in use or avialable at start
+    // Check that no memory is in use or available at start
     // (using thread_alloc in sequential mode)
     size_t thread_num;
     for(thread_num = 0; thread_num < num_threads; thread_num++)
@@ -115,7 +115,7 @@ bool team_example(void)
     ok &= team_work(worker);
     ok &= team_destroy();
 
-    // go down so that free memrory for other threads before memory for master
+    // go down so that free memory for other threads before memory for master
     thread_num = num_threads;
     while(thread_num--)
     {   // check that this thread was ok with the work it did
@@ -123,7 +123,7 @@ bool team_example(void)
         // delete problem specific information
         void* v_ptr = static_cast<void*>( work_all_[thread_num] );
         thread_alloc::return_memory( v_ptr );
-        // check that there is no longer any memory inuse by this thread
+        // check that there is no longer any memory in use by this thread
         // (for general applications, the master might still be using memory)
         ok &= thread_alloc::inuse(thread_num) == 0;
         // return all memory being held for future use by this thread
